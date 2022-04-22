@@ -1,6 +1,12 @@
 [build]
-command = "echo hello"
+command = "curl https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key=$MAXMIND_LICENSE_KEY&suffix=tar.gz --output db/GeoLite2-City.mmdb"
 publish = "public"
 
 [functions.geo]
 included_files = ["db/*"]
+
+[[redirects]]
+force = true
+from = "/"
+status = 200
+to = "/.netlify/functions/geo"
