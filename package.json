@@ -1,0 +1,27 @@
+{
+  "name": "geo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoboucas/geo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardoboucas/geo/issues"
+  },
+  "homepage": "https://github.com/eduardoboucas/geo#readme",
+  "dependencies": {
+    "@maxmind/geoip2-node": "^3.4.0",
+    "@netlify/functions": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.25"
+  }
+}
