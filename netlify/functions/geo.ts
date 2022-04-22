@@ -5,8 +5,6 @@ import { Reader, ReaderModel } from "@maxmind/geoip2-node";
 
 const DB_PATH = resolve(__dirname, "../../GeoLite2-City.mmdb");
 
-console.log({ __dirname, DB_PATH });
-
 let db: Promise<ReaderModel>;
 
 export const handler: Handler = async (event) => {
