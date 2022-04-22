@@ -1,9 +1,9 @@
 [build]
-command = "curl \"https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key=$MAXMIND_LICENSE_KEY&suffix=tar.gz\" --output db/GeoLite2-City.mmdb"
+command = "bash download.sh"
 publish = "public"
 
 [functions.geo]
-included_files = ["db/*"]
+included_files = ["db/*.mmdb"]
 
 [[redirects]]
 force = true
