@@ -3,7 +3,7 @@ command = "bash download.sh"
 publish = "public"
 
 [functions.geo]
-included_files = ["db/*.mmdb"]
+included_files = ["*.mmdb"]
 
 [[redirects]]
 force = true

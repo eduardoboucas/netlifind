@@ -3,7 +3,7 @@ import { resolve } from "path";
 import { Handler } from "@netlify/functions";
 import { Reader, ReaderModel } from "@maxmind/geoip2-node";
 
-const DB_PATH = resolve(__dirname, "../../db/GeoLite2-City.mmdb");
+const DB_PATH = resolve(__dirname, "../../GeoLite2-City.mmdb");
 
 console.log({ __dirname, DB_PATH });
 
