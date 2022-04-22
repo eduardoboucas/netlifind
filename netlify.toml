@@ -1,5 +1,5 @@
 [build]
-command = "curl https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key=$MAXMIND_LICENSE_KEY&suffix=tar.gz --output db/GeoLite2-City.mmdb"
+command = "curl \"https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key=$MAXMIND_LICENSE_KEY&suffix=tar.gz\" --output db/GeoLite2-City.mmdb"
 publish = "public"
 
 [functions.geo]
