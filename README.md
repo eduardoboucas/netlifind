@@ -1,4 +1,4 @@
-# geofindr
+# netlifind
 
 Returns geolocation information for the client's IP.
 
