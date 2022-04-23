@@ -16,12 +16,5 @@
   "bugs": {
     "url": "https://github.com/eduardoboucas/geo/issues"
   },
-  "homepage": "https://github.com/eduardoboucas/geo#readme",
-  "dependencies": {
-    "@maxmind/geoip2-node": "^3.4.0",
-    "@netlify/functions": "^1.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "^17.0.25"
-  }
+  "homepage": "https://github.com/eduardoboucas/geo#readme"
 }

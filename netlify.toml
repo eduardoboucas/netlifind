@@ -1,12 +1,7 @@
 [build]
-command = "bash download.sh"
+command = ""
 publish = "public"
 
-[functions.geo]
-included_files = ["*.mmdb"]
-
-[[redirects]]
-force = true
-from = "/"
-status = 200
-to = "/.netlify/functions/geo"
+[[edge_functions]]
+function = "geo"
+path = "/"
