@@ -28,7 +28,10 @@ export const handler: Handler = async (event) => {
   };
 
   return {
-    statusCode: 200,
     body: JSON.stringify(geo),
+    headers: {
+      "content-type": "application/json",
+    },
+    statusCode: 200,
   };
 };
